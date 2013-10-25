@@ -1,15 +1,17 @@
 class VendingMachine
+
+  attr_reader :display
   
   def initialize
     @display = 'INSERT COIN'
   end
 
-  def display
-    @display
-  end
-
   def insert coin
-    @display = '0.05'
+    if coin == :dime
+      @display = '0.10'
+    else
+      @display = '0.05'
+    end
   end
 
 end
