@@ -1,0 +1,1 @@
+require 'vending_machine'
