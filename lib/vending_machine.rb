@@ -7,11 +7,13 @@ class VendingMachine
   end
 
   def insert coin
-    if coin == :dime
-      @display = '0.10'
-    else
-      @display = '0.05'
-    end
+    @display = coins[coin]
+  end
+
+  private
+
+  def coins
+    { :nickel => '0.05', :dime => '0.10', :quarter => '0.25' }
   end
 
 end
