@@ -1,6 +1,6 @@
 describe Placeholder do
-    it 'checks truth' do
+    it 'holds a place' do
         placeholder = Placeholder.new
-        placeholder.is_true.should be_true
+        expect(placeholder.holds_place()).to be_truthy
     end
 end

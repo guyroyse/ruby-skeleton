@@ -1,6 +1,6 @@
 class Placeholder
 
-    def is_true
-        true
+    def holds_place
+        false
     end
 end
