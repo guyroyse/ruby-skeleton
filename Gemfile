@@ -1,5 +1,5 @@
 source "http://rubygems.org"
 
-gem "rake", "~> 10.3.2"
-gem "rspec", "~> 3.1.0"
+gem "rake", "~> 11.2.2"
+gem "rspec", "~> 3.5.0"
 
