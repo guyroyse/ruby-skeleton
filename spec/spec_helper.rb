@@ -1,1 +1,1 @@
-require 'vending_machine'
+require 'placeholder'
